@@ -22,7 +22,6 @@ class AnimalsServiceTest {
         // when
         val animals = animalsService.getAnimals()
 
-
         // assert
         verify(exactly = 1) { animalsRepo.getAnimals() }
 
